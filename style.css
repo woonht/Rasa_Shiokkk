@@ -69,6 +69,7 @@ a{
     background-color: antiquewhite;
     text-align: justify;
     padding: 20px;
+    padding-right: 250px;
     gap: 20px;
 }
 
@@ -78,18 +79,18 @@ a{
     font-size: larger;
     line-height: 1.6;
     padding-top: 30px;
-    padding-left: 300px;
-    margin: 0 auto;
+    padding-left: 400px;
+    margin: 0;
     width: 60%;
 }
 
 .content img {
 
-    width: 30%;
+    width: 100%;
     height: auto;
-    max-width: 275px;
-    padding-right: 400px;
-    margin: 20px auto;
+    max-width: 400px;
+    margin: 30px auto;
+    
 }
 
 .block{
@@ -136,7 +137,7 @@ a{
 
 .galleryText img {
 
-    padding-top: 10px;
+    padding-top: 15px;
     width: 400px;
     height: 100%;
 }
@@ -144,7 +145,22 @@ a{
 .galleryText p {
 
     font-size: larger;
+    padding-bottom: 50px;
+}
+
+.relative.overflow-hidden.h-56.md\:h-96 {
+    padding: 0;
     margin: 0;
+    border: none;
+    /* Remove border */
+}
+
+.relative.overflow-hidden img {
+    margin: 0;
+    padding: 0;
+    border: none;
+    /* Remove any border around images */
+    display: block;
 }
 
 @media screen and (max-width: 1500px) {
@@ -152,6 +168,7 @@ a{
 
         display: block;
         text-align: center;
+        padding-right: 0;
     }
 
     .content img {
@@ -165,13 +182,11 @@ a{
 
         display: flex;
         flex-wrap: nowrap;
-        padding: 0; 
-        width: 100%;
-        margin: 20px auto;
+        padding: 0;
+        width: 93%;
+        margin: 20px;
         text-align: justify;
-        max-width: 800px;
-        font-size: 1.6vw;
-        box-sizing: border-box;
+        max-width: 1330px;
     }
 
     .bimage img {
@@ -186,7 +201,9 @@ a{
 
     .galleryText img {
 
-        width: 30%;
+        width: 40%;
         height: 100%;
+        margin-top: 1px;
+        padding-bottom: 50px;
     }
 }
