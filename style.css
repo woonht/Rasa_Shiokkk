@@ -6,7 +6,7 @@ body{
 
 .header{    
 
-    background-color: #fcfcfc;
+    background-color: #ECE9E9;
     padding-right: 50px;
 }
 
@@ -83,6 +83,15 @@ a{
     width: 60%;
 }
 
+.content img {
+
+    width: 30%;
+    height: auto;
+    max-width: 275px;
+    padding-right: 400px;
+    margin: 20px auto;
+}
+
 .block{
 
     width: 30%;
@@ -118,13 +127,24 @@ a{
     padding-bottom: 20px;
 }
 
-.content img {
+.galleryText {
 
-    width: 30%;
-    height: auto;
-    max-width: 275px;
-    padding-right: 400px;
-    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galleryText img {
+
+    padding-top: 10px;
+    width: 400px;
+    height: 100%;
+}
+
+.galleryText p {
+
+    font-size: larger;
+    margin: 0;
 }
 
 @media screen and (max-width: 1500px) {
@@ -152,16 +172,6 @@ a{
         max-width: 800px;
         font-size: 1.6vw;
         box-sizing: border-box;
-
-        /*display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
-        height: 100px;
-        font-size: larger;
-        overflow: hidden;
-        padding: none;
-        box-sizing: border-box;*/
     }
 
     .bimage img {
@@ -172,5 +182,11 @@ a{
         background-color: orangered;
         padding-bottom: 20px;
         overflow: hidden;
+    }
+
+    .galleryText img {
+
+        width: 30%;
+        height: 100%;
     }
 }
