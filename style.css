@@ -16,17 +16,11 @@ body{
     overflow: hidden; 
 }
 
-<<<<<<< HEAD
 .navbar a.active{
 
     background-color:#FC8F54;
     padding: 5px;
     border-radius: 10px;
-=======
-nav ul {
-    
-    display: flex;
->>>>>>> d8b792036657a9d02aca0dbefdb867f1078191f1
 }
 
 nav ul li{
@@ -62,7 +56,6 @@ nav ul li a:active{
     margin-left: 30px;
 }
 
-<<<<<<< HEAD
 a{
 
     text-decoration:none;
@@ -166,8 +159,6 @@ body{
     transition: overflow 0.3 ease;
 }
 
-=======
->>>>>>> d8b792036657a9d02aca0dbefdb867f1078191f1
 .content{
 
     display: flex;
@@ -246,41 +237,6 @@ body{
 
 .relative.overflow-hidden img {
     padding: 0;
-<<<<<<< HEAD
-=======
-}
-
-.footer {
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: nowrap;
-    height: 100px;
-    font-size: larger;
-    overflow: hidden;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-    box-sizing: border-box;
-    background-color: #2A3663;
-}
-
-.footer a {
-
-    color: white;
-    transition: color 0.3s ease;
-}
-
-.footer a:hover {
-
-    color: #FC8F54;
-}
-
-.footer img {
-
-    padding-right: 20px;
->>>>>>> d8b792036657a9d02aca0dbefdb867f1078191f1
 }
 
 .footer {
