@@ -188,13 +188,12 @@ body{
     margin: 30px auto;
 }
 
-.block{
+.block {
 
-    width: 30%;
-    display:inline-table;
-    background-color:#f9f9f9;
-    border-radius: 10%;
-    padding: 15px;  
+    width: 100%;
+    display: inline-table;
+    background-color: #f9f9f9;
+    padding: 15px;
     justify-content: space-between;
 }
 
@@ -204,6 +203,26 @@ body{
     justify-content: space-between;
     padding: 10px 0;
     border-bottom: 1px solid #d9d9d9;
+}
+
+.block table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.block td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    overflow: hidden;
 }
 
 #drinks{
