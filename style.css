@@ -70,6 +70,45 @@ a{
     padding-bottom: 20px;
 }
 
+.background{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ff4400b0;
+    padding-bottom: 20px;
+}
+
+.background p{
+
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    font-size: xx-large;
+}
+
+.video {
+
+    width: 50%;
+    margin: auto;
+}
+
+@media(max-width: 650px){
+
+    .background{
+
+        padding-bottom: 0%;
+    }
+
+    .background p{
+
+        font-size: x-large;
+    }
+
+    .video{
+
+        width: 90%;
+    }
+}
+
 .checkbtn {
 
     font-size: 22px;
