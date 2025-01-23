@@ -91,24 +91,6 @@ a{
     margin: auto;
 }
 
-@media(max-width: 650px){
-
-    .background{
-
-        padding-bottom: 0%;
-    }
-
-    .background p{
-
-        font-size: x-large;
-    }
-
-    .video{
-
-        width: 90%;
-    }
-}
-
 .checkbtn {
 
     font-size: 22px;
