@@ -81,14 +81,23 @@ a{
 
 .background p{
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Brush Script MT', cursive, 'Times New Roman', Times, serif;
     margin: auto;
-    font-size: xx-large;
+    font-size: 50px;
+    color: white;
 }
 
 .video {
 
     margin: auto;
+}
+
+.youtube {
+
+    height: 480px;
+    width: 854px;
+    aspect-ratio: 16/9;
+    width: 100%;
 }
 
 .checkbtn {
@@ -175,6 +184,8 @@ a{
         right: 0;
     }
 }
+
+
 
 body{
     transition: overflow 0.3 ease;
